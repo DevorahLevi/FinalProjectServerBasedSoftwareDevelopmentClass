@@ -35,7 +35,6 @@ public class FinalProjectService
     public Timestamp getTime()
     {
         return new Timestamp(System.currentTimeMillis());
-//        return Instant.now().toString();
     }
 
     public Values performOperation(Values values, String operation, double x) throws HttpClientErrorException
