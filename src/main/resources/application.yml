@@ -1,0 +1,6 @@
+server:
+  port: 8381
+
+feature-switch:
+  perform-operation:
+    perform-operation-on: true
